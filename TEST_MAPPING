@@ -5,6 +5,11 @@
       "path": "external/rust/crates/rustc-demangle-capi"
     }
   ],
+  "postsubmit": [
+    {
+      "name": "rustc-demangle_test_src_lib"
+    }
+  ],
   "presubmit": [
     {
       "name": "rustc-demangle_test_src_lib"
