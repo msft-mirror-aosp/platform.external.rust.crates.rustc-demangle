@@ -47,6 +47,7 @@ rust_library {
     cargo_pkg_version: "0.1.23",
     srcs: ["src/lib.rs"],
     edition: "2015",
+    features: ["std"],
     apex_available: [
         "//apex_available:platform",
         "com.android.runtime",
