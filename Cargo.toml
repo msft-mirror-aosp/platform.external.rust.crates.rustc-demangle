@@ -11,7 +11,7 @@
 
 [package]
 name = "rustc-demangle"
-version = "0.1.22"
+version = "0.1.23"
 authors = ["Alex Crichton <alex@alexcrichton.com>"]
 description = """
 Rust compiler symbol demangling.
